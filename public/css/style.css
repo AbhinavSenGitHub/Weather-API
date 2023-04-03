@@ -1,0 +1,31 @@
+body{
+  background-color: #EC994B;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  text-align: center;
+  margin: 300px;
+}
+H1{
+  letter-spacing: 1px;
+  font-family: 'Merriweather', serif;
+}
+input{
+  height: 30px;
+  width: 300px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+button{
+  border: none;
+  height: 30px;
+  width: 300px;
+  background-color: #34B3F1;
+}
