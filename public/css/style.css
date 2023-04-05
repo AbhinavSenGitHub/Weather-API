@@ -1,19 +1,22 @@
-body{
-  background-color: #EC994B;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }
 
-.main{
-  text-align: center;
-  margin: 300px;
+.main {
+  align-items: center;
+  margin: auto;
+  max-width: 500px;
+  padding: 20px;
 }
-H1{
+
+h1 {
   letter-spacing: 1px;
   font-family: 'Merriweather', serif;
 }
-input{
+
+input {
   height: 30px;
   width: 300px;
   border-bottom-right-radius: 0;
@@ -23,9 +26,11 @@ input{
   margin: 10px;
   margin-bottom: 20px;
 }
-button{
+
+.search {
   border: none;
-  height: 30px;
+  height: 40px;
   width: 300px;
   background-color: #34B3F1;
+  margin-top: 10px;
 }
